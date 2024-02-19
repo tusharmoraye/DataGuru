@@ -30,6 +30,8 @@ DataGuru is a data analysis platform used by data analysts.
 The average page load time is around 0.5 seconds. <br>
 [PageSpeed Insights Report](https://pagespeed.web.dev/analysis/https-www-tusharmoraye-com-DataGuru/xwypygiw45?form_factor=desktop)
 
+![PageSpeed Insights Report](pagespeed-report.png)
+
 - First Contentful Paint: 0.4 s
 - Largest Contentful Paint: 0.5 s
 - Total Blocking Time: 40 ms
