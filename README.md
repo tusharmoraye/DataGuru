@@ -2,7 +2,7 @@
 
 DataGuru is a data analysis platform used by data analysts.
 
-## Walkthrough
+## Walkthrough video
 
 [![DataGuru Walkthrough](https://img.youtube.com/vi/uEYL1TgOQug/0.jpg)](https://www.youtube.com/watch?v=uEYL1TgOQug)
 
