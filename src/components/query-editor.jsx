@@ -7,12 +7,16 @@ import {
   useDataset,
   useDatasetDispatch,
 } from "@/contexts/dataset-context";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export function QueryEditor() {
   const { currentQuery, currentDataset } = useDataset();
   const dispatch = useDatasetDispatch();
   const [selectedDataset, setSelectedDataset] = useState(currentDataset);
+
+  useEffect(() => {
+    setSelectedDataset(currentDataset);
+  }, [currentDataset]);
 
   const handleRunQuery = () => {
     dispatch({

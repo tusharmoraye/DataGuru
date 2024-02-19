@@ -1,4 +1,4 @@
-import { Cross2Icon } from "@radix-ui/react-icons";
+import { Cross2Icon, StarFilledIcon } from "@radix-ui/react-icons";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Command, CommandItem, CommandList } from "@/components/ui/command";
@@ -80,7 +80,7 @@ export function QueryContainer() {
                 <span className="flex-1 min-w-0 overflow-ellipsis overflow-hidden">
                   {savedQuery.query}
                 </span>
-                <Cross2Icon
+                <StarFilledIcon
                   onClick={(e) => {
                     e.stopPropagation();
                     handleUnsave(savedQuery.id);

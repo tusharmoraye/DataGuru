@@ -8,6 +8,7 @@ DataGuru is a data analysis platform used by data analysts.
 - Select datasets and view recent and saved queries for each dataset.
 - Virtualized table for smooth scrolling and improved performance.
 - Sort table columns for better data organization.
+- State of the application, including selected dataset, recent, and saved queries, is saved in local storage and restored when the page refreshes.
 - Switch between light and dark mode for user comfort.
 - Clean UI for enhanced user experience.
 
